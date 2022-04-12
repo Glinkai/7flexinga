@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 60px 0;
+    z-index: 1;
+    background: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.house {
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.logo p {
+    font: 400 13px Arial;
+    padding-top: 10px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 35px;
+}
+
+nav a {
+    font: 400 15px Arial, sans-serif;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 4px;
+    color: #FAFAFA;
+}
+
+.active {
+    border-bottom: #F1CDB3 solid 3px;
+}
+
+.people h1 {
+    width: 310px;
+    font-weight: 400;
+    font-size: 44px;
+    color: #FFFFFF;
+    padding-top: 343px;
+}
+
+.people p {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    color: #CDCDCD;
+    width: 460px;
+    padding-top: 42px;
+    padding-bottom: 56px;
+}
+
+.puppy img {
+    width: 698px;
+    height: 728px;
+    padding-top: 180px;
+}
+
+.make-friend {
+    background: #F1CDB3;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 15px 45px;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    width: 207px;
+    height: 52px;
+}
+
+.about img {
+    width: 300px;
+    height: 408px;
+    margin: 80px 126px 100px 215px;
+}
+
+.about-shelter h1 {
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    width: 370px;
+}
+
+.about-shelter p {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    color: #4C4C4C;
+    width: 430px;
+    padding-top: 25px;
+}
+
+.friend {
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 35px;
+    color: #545454;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+}
+
+.pets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.pet-card {
+    background-color: white;
+    flex-basis: 270px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.pet-card p {
+    margin: 30px 0px;
+    color: #545454;
+    letter-spacing: 0.06em;
+    font-size: 20px;
+}
+
+.learn-more {
+    display: inline-block;
+    padding: 15px 45px;
+    border: 2px #F1CDB3 solid;
+    border-radius: 100px;
+    color: #292929;
+    text-decoration: none;
+    letter-spacing: 0.06em;
+    font-size: 17px;
+}
+
+.pets-nav-button {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    border: #F1CDB3 1px solid;
+    margin-top: 217px;
+}
+
+.rest {
+    background: #F1CDB3;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 15px 45px;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    width: 117px;
+    height: 22px;
+    margin-left: 469px;
+    margin-top: 60px;
+}
+
+.group {
+    padding-top: 182px;
+    text-align: center;
+    left: 446px;
+}
+
+.help {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.animals {
+    flex-basis: 60px;
+}
+
+.helpme {
+    display: inline-block;
+    padding: 30px;
+    color: #545454;
+    text-decoration: none;
+    letter-spacing: 0.06em;
+    font-size: 20px;
+}
+
+.don img {
+    width: 505px;
+    height: 261px;
+    margin: 190px 30px 111px 142px;
+}
+
+.about-don h1 {
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    width: 300px;
+}
+
+.about-don h2 {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    padding-top: 20px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.about-don p {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 12px;
+    color: #B2B2B2;
+    padding-top: 20px;
+    width: 380px;
+}
+
+footer {
+    background: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+    padding-top: 40px;
+}
+
+footer .flex-wrapper>div {
+    width: 300px;
+}
+
+footer .flex-wrapper {
+    align-items: flex-start;
+}
+
+footer h2 {
+    font-size: 35px;
+    color: #FFF;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    padding-top: 16px;
+    margin-bottom: 33px;
+}
+
+footer p {
+    min-height: 46px;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+    color: #F1CDB3;
+    margin-bottom: 27px;
+}
+
+footer a {
+    color: #F1CDB3;
+}
+
+footer .email {
+    background: url(./images/email.svg) no-repeat left center;
+}
+
+footer .tel {
+    background: url(./images/tel.svg) no-repeat left center;
+}
+
+footer .local {
+    background: url(./images/marker.svg) no-repeat left center;
+    padding-left: 42px;
+}
