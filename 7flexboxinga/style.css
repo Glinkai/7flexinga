@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FFF;
 }
 
 .container {
@@ -19,14 +25,17 @@ header {
     left: 0;
     width: 100%;
     padding: 60px 0;
-    z-index: 1;
-    background: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+    z-index: 999;
 }
 
 .flex-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.first {
+    background: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
 }
 
 .house {
@@ -102,10 +111,27 @@ nav a {
     height: 52px;
 }
 
+.make-friend:hover {
+    background: #FDDCC4;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 15px 45px;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    width: 207px;
+    height: 52px;
+}
+
+.two {
+    justify-content: center;
+}
+
 .about img {
-    width: 300px;
+    max-width: 426px;
     height: 408px;
-    margin: 80px 126px 100px 215px;
+    margin: 80px 100px;
 }
 
 .about-shelter h1 {
@@ -136,17 +162,26 @@ nav a {
 
 .pets {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+    justify-content: center;
     margin-bottom: 30px;
 }
 
 .pet-card {
-    background-color: white;
     flex-basis: 270px;
     margin-bottom: 30px;
     text-align: center;
     padding-bottom: 30px;
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+
+.pet-card a {
+    text-decoration: none;
+}
+
+.pet-card:hover {
+    background: #FFFFFF;
 }
 
 .pet-card p {
@@ -154,6 +189,11 @@ nav a {
     color: #545454;
     letter-spacing: 0.06em;
     font-size: 20px;
+}
+
+.jennifer,
+.woody {
+    margin-left: 90px;
 }
 
 .learn-more {
@@ -167,6 +207,16 @@ nav a {
     font-size: 17px;
 }
 
+.learn-more:hover {
+    background: #FDDCC4;
+}
+
+.our {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
 .pets-nav-button {
     width: 52px;
     height: 52px;
@@ -177,6 +227,10 @@ nav a {
     cursor: pointer;
     border: #F1CDB3 1px solid;
     margin-top: 217px;
+}
+
+.pets-nav-button:hover {
+    background: #FDDCC4;
 }
 
 .rest {
@@ -194,35 +248,56 @@ nav a {
     margin-top: 60px;
 }
 
+.rest:hover {
+    background: #FDDCC4;
+}
+
 .group {
     padding-top: 182px;
     text-align: center;
     left: 446px;
+    padding-bottom: 20px;
+}
+
+.four {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .help {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    margin-bottom: 55px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
-.animals {
-    flex-basis: 60px;
+.animal {
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .helpme {
-    display: inline-block;
-    padding: 30px;
+    text-align: center;
     color: #545454;
     text-decoration: none;
     letter-spacing: 0.06em;
     font-size: 20px;
 }
 
+.five {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
 .don img {
     width: 505px;
     height: 261px;
-    margin: 190px 30px 111px 142px;
+}
+
+.about-don {
+    margin-left: 30px;
 }
 
 .about-don h1 {
