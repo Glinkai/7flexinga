@@ -278,6 +278,7 @@ nav a {
 }
 
 .helpme {
+    display: block;
     text-align: center;
     color: #545454;
     text-decoration: none;
