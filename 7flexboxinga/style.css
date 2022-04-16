@@ -266,16 +266,15 @@ nav a {
 }
 
 .help {
-    display: inline-block;
-    text-align: center;
     margin-bottom: 55px;
     margin-left: 60px;
     margin-right: 60px;
+    text-align: center;
 }
 
 .animal {
+    display: inline-block;
     margin-bottom: 30px;
-    text-align: center;
 }
 
 .helpme {
