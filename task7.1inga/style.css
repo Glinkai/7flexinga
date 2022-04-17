@@ -6,6 +6,7 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FFFFFF;
 }
 
 .container {
@@ -62,7 +63,6 @@ nav a {
 
 main {
     padding: 80px 0 100px;
-    background-color: #F6F6F6;
 }
 
 h1 {
@@ -82,11 +82,15 @@ h1 {
 }
 
 .pet-card {
-    background-color: white;
+    background: #FAFAFA;
     flex-basis: 270px;
     margin-bottom: 30px;
     text-align: center;
     padding-bottom: 30px;
+}
+
+.pet-card:hover {
+    background-color: #FFFFFF;
 }
 
 .pet-card p {
@@ -105,6 +109,10 @@ h1 {
     text-decoration: none;
     letter-spacing: 0.06em;
     font-size: 17px;
+}
+
+.learn-more:hover {
+    background: #FDDCC4;
 }
 
 .pets-nav {
