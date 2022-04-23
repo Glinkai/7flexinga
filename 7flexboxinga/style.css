@@ -102,6 +102,7 @@ nav a {
 }
 
 .make-friend {
+    display: inline-block;
     background: #F1CDB3;
     border-radius: 100px;
     text-decoration: none;
@@ -244,6 +245,7 @@ nav a {
 }
 
 .rest {
+    display: inline-block;
     background: #F1CDB3;
     border-radius: 100px;
     text-decoration: none;
