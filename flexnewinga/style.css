@@ -56,7 +56,7 @@ li:first-child {
 }
 
 .tel {
-    background-image: url(../images/Vector.svg);
+    background-image: url(./images/vector.svg);
     background-repeat: no-repeat;
     padding: 10px 0 10px 36px;
     font-weight: 800;
@@ -65,17 +65,20 @@ li:first-child {
     color: #30233D;
 }
 
+.one {
+    padding-top: 126px;
+    padding-bottom: 115px;
+}
+
 .pic {
-    background-image: url(./images/pic.png);
-    background-size: cover
+    background-image: url(./images/pic.svg);
+    background-size: cover;
 }
 
 .pic h1 {
     font-weight: 500;
     font-size: 54px;
     color: #FCFCFC;
-    padding-top: 126px;
-    padding-left: 149px;
 }
 
 .pic p {
@@ -84,8 +87,11 @@ li:first-child {
     letter-spacing: 2px;
     color: #F4F4ED;
     padding-top: 22px;
-    padding-left: 149px;
-    padding-bottom: 115px;
+}
+
+.two {
+    padding-top: 72px;
+    padding-bottom: 58px;
 }
 
 .container h2 {
@@ -94,7 +100,6 @@ li:first-child {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #A22F32;
-    padding-top: 72px;
 }
 
 .container .remember {
@@ -102,11 +107,12 @@ li:first-child {
     font-size: 27px;
     color: #30233D;
     padding-top: 12px;
+    width: 870px;
 }
 
 main .flex-tech-wrapper div {
     max-width: 362px;
-    border: 3px solid #f61067;
+    border: 1px solid #f61067;
     padding: 37px 36px 38px;
     margin-top: 60px;
 }
@@ -121,7 +127,6 @@ main .flex-tech-wrapper div {
 .flex-tech-wrapper {
     display: flex;
     justify-content: space-between;
-    margin-top: 58px;
 }
 
 .flex-tech-wrapper p {
